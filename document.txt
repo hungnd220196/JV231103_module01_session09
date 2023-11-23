@@ -1,0 +1,13 @@
+*Trong javascript có 3 cách:
+
+-Sử dụng từ khóa var:
++có thể khai báo và gán giá trị lại
++có cơ chế hosting( cẩu lên): khi 1 file .js được thực thi thì code sẽ được chạy theo chiều từ trên xuống dưới, khi đó nó sẽ quét file .js xem có biến nào được khia báo với var không, nếu có thì đưa lên đầu. TUy nhiên giá trị nhận là undefined
++ Phạm vi hoạt động của var là toàn cục
+
+-Sử dụng từ khóa let:
++ Có thể gán lại giá trị, tuy nhiên không thể khai báo lại
+
+-Sử dụng từ khóa const:
++ không thể gán lại giá trị và khai báo lại
++không chứa context(bổ từ khóa this)
